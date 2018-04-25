@@ -1,4 +1,9 @@
 <?php
+$t = date("H");
+
+if ($t < "20") {
+    echo "Have a good day!";
+}
 switch (n) {
     case label1:
         code to be executed if n=label1;
